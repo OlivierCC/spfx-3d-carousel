@@ -15,9 +15,26 @@ Your title has now an awesome look.
 ## Features
 
 You can manage the following settings:
-* **Font**: specifies the font family as Arial, Verdana, etc.
-* **Size**: sets the font size
-* **Color**: sets the font color
+* **Manage items**: Collection of carousel items. An item is composed of a Title (mnandatory), a Picture Url (mandatory), a boolean to indicate if the
+item is enabled or disabled, a link url (optional) and a link text (optional).
+* **Item Height**: Carousel item height in pixels (default 180)
+* **Speed**: Relative speed factor of the carousel. Any positive number: 1 is slow, 4 is medium, 10 is fast. Adjust to your liking
+* **Autoplay**: Automatically rotate the carousel by this many items periodically. Auto-play is not performed while the mouse hovers over the carousel container (default is true).
+* **Autoplay delay**: Delay, in milliseconds, between auto-play spins (default is 4000)
+* **Height**: Carousel container's height in pixels (default is 400)
+* **Show Title**: Indicates if the title is displayed or not (default is true)
+* **Show Buttons**:Indicates if the buttons are displayed or not (default is true)
+* **Bring to Front**: Indicates if clicking an item will rotate it to the front (default is true)
+* **Mirror Gap**: Vertical gap in pixels between the bottom of the item (at full size) and the top of its reflection (default is 2)
+* **Mirror Height**: The height of the reflection relative to the height of the item (range: 0 to 1) (default is 0.2)
+* **Mirror Opacity**: Opacity of the reflection at its top (most visible part) (range: 0 to 1) (default is 0.4)
+* **Y Origin**: Center of the carousel (y coordinate)
+* **Y Radisu**: Half the height of the carousel
+* **X Origin**: Center of the carousel (x coordinate)
+* **X Radisu**: Half the width of the carousel
+* **Title Font**: specifies the Title font family as Arial, Verdana, etc.
+* **Title Size**: sets the Title font size
+* **Title Color**: sets the Title font color
 
 ## Run this web part in the SharePoint workbench
 
