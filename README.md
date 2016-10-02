@@ -14,7 +14,7 @@ Your title has now an awesome look.
 
 ## Features
 
-You can manage the following settings:
+You can configure the following Web Part settings:
 * **Manage items**: Collection of carousel items. An item is composed of a Title (mnandatory), a Picture Url (mandatory), a boolean to indicate if the
 item is enabled or disabled, a link url (optional) and a link text (optional).
 * **Item Height**: Carousel item height in pixels (default 180)
