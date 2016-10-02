@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "3-d-carousel",
+    "libraryId": "9a094d95-2a01-4be3-8134-64873bdef79f",
+    "framework": "react"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "3-d-carousel",
+  "accessKey": "<!-- ACCESS KEY -->"
+}

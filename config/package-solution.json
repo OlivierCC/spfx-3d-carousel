@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "3-d-carousel-client-side-solution",
+    "id": "9a094d95-2a01-4be3-8134-64873bdef79f",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/3-d-carousel.spapp"
+  }
+}
