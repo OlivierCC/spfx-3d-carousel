@@ -1,24 +1,18 @@
-import * as React from 'react';
-import * as ReactDom from 'react-dom';
-import Carousel3D, { ICarousel3DProps } from './components/Carousel3D';
-
 import {
   BaseClientSideWebPart,
   IPropertyPaneSettings,
   IWebPartContext,
-  PropertyPaneTextField,
   PropertyPaneToggle,
-  PropertyPaneSlider,
-  PropertyPaneDropdown
+  PropertyPaneSlider
 } from '@microsoft/sp-client-preview';
 
 import * as strings from 'carousel3DStrings';
 import { ICarousel3DWebPartProps } from './ICarousel3DWebPartProps';
 
-import { PropertyFieldCustomList, CustomListFieldType } from './controls/PropertyFieldCustomList';
-import { PropertyFieldFontPicker } from './controls/PropertyFieldFontPicker';
-import { PropertyFieldFontSizePicker } from './controls/PropertyFieldFontSizePicker';
-import { PropertyFieldColorPicker } from './controls/PropertyFieldColorPicker';
+import { PropertyFieldCustomList, CustomListFieldType } from 'sp-client-custom-fields/lib/PropertyFieldCustomList';
+import { PropertyFieldFontPicker } from 'sp-client-custom-fields/lib/PropertyFieldFontPicker';
+import { PropertyFieldFontSizePicker } from 'sp-client-custom-fields/lib/PropertyFieldFontSizePicker';
+import { PropertyFieldColorPicker } from 'sp-client-custom-fields/lib/PropertyFieldColorPicker';
 
 require('jquery');
 require('jqueryreflection');
@@ -65,7 +59,7 @@ export default class Carousel3DWebPart extends BaseClientSideWebPart<ICarousel3D
         + this.properties.font  + '\'><div id="' + this.guid + '-item-title" style="position: absolute; bottom:0; width: 100%; text-align: center;">&nbsp;</div></div>';
     }
     if (this.properties.showButton === true) {
-      html += '<div id="' + this.guid + '-buttons" style="height: 100%">'
+      html += '<div id="' + this.guid + '-buttons" style="height: 100%">';
       html += `
           <button class="left" style="float:left; height: 60px; position: absolute; top: 45%; cursor: pointer;">
             <i class='ms-Icon ms-Icon--ChevronLeft' aria-hidden="true" style="font-size:large"></i>
@@ -150,8 +144,8 @@ export default class Carousel3DWebPart extends BaseClientSideWebPart<ICarousel3D
       $('#' + this.guid + '-item-title').html( subTitle );
 
       // Fade in based on proximity of the item
-      var c = Math.cos((carousel.floatIndex() % 1) * 2 * Math.PI)
-      $('#' + this.guid + '-item-title').css('opacity', 0.5 + (0.5 * c))
+      var c = Math.cos((carousel.floatIndex() % 1) * 2 * Math.PI);
+      $('#' + this.guid + '-item-title').css('opacity', 0.5 + (0.5 * c));
     }
   }
 

@@ -14,6 +14,7 @@
     "react": "node_modules/react/dist/react.min.js",
     "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
     "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
+    "sp-client-custom-fields": "node_modules/sp-client-custom-fields/dist/sp-client-custom-fields.bundle.js",
     "jquery": {
       "path": "node_modules/jquery/dist/jquery.min.js",
       "globalName": "jQuery"
@@ -30,6 +31,7 @@
     }
   },
   "localizedResources": {
+    "sp-client-custom-fields/strings": "../node_modules/sp-client-custom-fields/lib/loc/{locale}.js",
     "carousel3DStrings": "webparts/carousel3D/loc/{locale}.js"
   }
 }
