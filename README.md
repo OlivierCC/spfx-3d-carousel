@@ -4,7 +4,7 @@
 
 The 3D Carousel Web Part is a SharePoint client side web part built with the SharePoint Framework (SPFx) in the preview version.
 This web part adds a 3D carousel animation with picture, title and link.
-This project uses the JQuery plugin [jquery.cloud9carousel.js](http://specious.github.io/cloud9carousel/ created by R. Cecco.
+This project uses the JQuery plugin [jquery.cloud9carousel.js](http://specious.github.io/cloud9carousel/) created by R. Cecco.
 This web part uses also the [Custom Fields library](https://github.com/OlivierCC/sp-client-custom-fields) to enhance the web part edition experience.
 
 Thanks to this WP, you can insert your text, change the radius, the direction, the size, the font, etc.
